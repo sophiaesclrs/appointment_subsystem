@@ -51,7 +51,7 @@
             width: 100%;
             min-height: 100vh;
             background: linear-gradient(rgba(252,244,163, 0.5), rgba(252,244,163, 0.5)), url(/image/white-abstract-background-2pa3nsnx8sj91zs3.jpg);
-            background-position: center center;
+            background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             /* background: #fcf4a3; */

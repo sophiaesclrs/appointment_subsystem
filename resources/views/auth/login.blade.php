@@ -50,7 +50,7 @@
             min-height: 100vh;
             overflow: hidden;
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/image/white-abstract-background-2pa3nsnx8sj91zs3.jpg);
-            background-position: center center;
+            background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             padding: 2rem;
@@ -129,7 +129,7 @@
         }
         .input_user,
         .input_pass{
-            font-size: 1rem;
+            font-size: 12px;
             font-weight: bolder;
         }
 
@@ -152,7 +152,7 @@
             transition: 0.55s ease;
         }
         .login_btn:hover{
-            background: #8a0303;
+            background: #cc1100;
             color: white;
         }
         .login_btn:focus{
@@ -204,10 +204,6 @@
                         <span class="text-red-600">{{ $message }}</span>
                     @enderror
                 </div>
-
-
-
-
 
                 <div class="form-group">
                     <div class="note">
